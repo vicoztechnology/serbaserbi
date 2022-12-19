@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    max-width: 500px ;
+    margin: 0 auto ;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 12px;
+    
+}
+.xx {
+    max-width: 500px;
+    margin: auto;
+}
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #f1dcf4 !important;
+   
+  }
+  .swiper-pagination-bullet {
+    margin-bottom: 5px !important;
+  }
