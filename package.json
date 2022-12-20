@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/roboto-flex": "^4.5.2",
 		"swiper": "^8.4.5"
 	}
 }
