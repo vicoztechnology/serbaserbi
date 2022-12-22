@@ -87,10 +87,11 @@
 <div class="new">
 
 </div>
+
   <ul class="grid grid-cols-2 gap-4 pb-20 px-3">
-    <li class="rounded-lg bg-surface-light">
-      <div class="rounded-lg image">
-        <img class="rounded-lg" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
+    <li class="rounded-xl bg-surface-light border border-outline-light">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
       </div>
       <div class="pl-2">
         <div class="Name">sdfsdfsdf</div>
@@ -99,9 +100,9 @@
         <div class="Name">sdfsdfsdf</div>
       </div>
     </li>
-    <li class="rounded-lg  bg-surface-light">
-      <div class="rounded-lg image">
-        <img class="rounded-lg" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
+    <li class="rounded-xl  bg-surface-light border border-outline-light">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
       </div>
       <div class="pl-2">
         <div class="Name">sdfsdfsdf</div>
@@ -110,9 +111,9 @@
         <div class="Name">sdfsdfsdf</div>
       </div>
     </li>
-    <li class="rounded-lg bg-surface-light">
-      <div class="rounded-lg image">
-        <img class="rounded-lg" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
+    <li class="rounded-xl bg-surface-light border border-outline-light">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
       </div>
       <div class="pl-2">
         <div class="Name">sdfsdfsdf</div>
@@ -121,9 +122,20 @@
         <div class="Name">sdfsdfsdf</div>
       </div>
     </li>
-    <li class="rounded-lg  bg-surface-light">
-      <div class="rounded-lg image">
-        <img class="rounded-lg" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
+    <li class="rounded-xl  bg-surface-light border border-outline-light">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
+      </div>
+      <div class="pl-2">
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+      </div>
+    </li>
+    <li class="rounded-xl  bg-surface-light border border-outline-light">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
       </div>
       <div class="pl-2">
         <div class="Name">sdfsdfsdf</div>
