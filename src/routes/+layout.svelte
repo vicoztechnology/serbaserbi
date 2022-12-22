@@ -3,7 +3,7 @@ import "../app.css";
 import "@fontsource/roboto-flex"
 </script>
 
-<nav class="flex px-3 py-2 bg-surface-light dark:bg-surface-dark top-0 text-on-surface-variant-light">
+<nav class="flex xx inset-x-0 z-10 fixed px-3 py-2 bg-surface-light dark:bg-surface-dark top-0 text-on-surface-variant-light">
     <div class="basis-1/3">
         <a href="/" class="">serbserbi.id</a>
     </div>
@@ -24,7 +24,9 @@ import "@fontsource/roboto-flex"
 
     </div>
 </nav>
+<div class="pt-10">
 <slot />
+</div>
 <nav class="flex xx  text-on-surface-variant-light py-3  text-center flex-row fixed inset-x-0 bottom-0 bg-surface-light dark:bg-surface-dark" >
     <div class="basis-1/4">
         <button class="bg-secondary-container-light  py-1 px-5 rounded-full text-on-secondary-container-light">

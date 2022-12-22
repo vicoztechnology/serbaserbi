@@ -30,9 +30,10 @@
    
     
   </Swiper>
-  <br>
-  <br>
-<div class="flex overflow-x-scroll">
+<div class="px-3">
+  Kategori
+</div>
+<div class="flex py-3 no-scrollbar overflow-x-scroll">
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
     <div>Daster</div>
@@ -83,23 +84,57 @@
   </div>
  
 </div>
-  <ul class="grid grid-cols-2 gap-4">
-    <li>01</li>
-    <li>02</li>
-    <li>03</li>
-    <li>04</li>
-    <li>05</li>
-    <li>06</li>
-    <li>07</li>
-    <li>08</li>
-    <li>09</li>
-    <li>10</li>
-    <li>11</li>
-    <li>12</li>
-    <li>13</li>
-    <li>14</li>
-    <li>15</li>
-  </ul>
+<div class="new">
+
+</div>
+  <ul class="grid grid-cols-2 gap-4 pb-20 px-3">
+    <li class="rounded-lg bg-surface-light">
+      <div class="rounded-lg image">
+        <img class="rounded-lg" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
+      </div>
+      <div class="pl-2">
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+      </div>
+    </li>
+    <li class="rounded-lg  bg-surface-light">
+      <div class="rounded-lg image">
+        <img class="rounded-lg" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
+      </div>
+      <div class="pl-2">
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+      </div>
+    </li>
+    <li class="rounded-lg bg-surface-light">
+      <div class="rounded-lg image">
+        <img class="rounded-lg" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf">
+      </div>
+      <div class="pl-2">
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+      </div>
+    </li>
+    <li class="rounded-lg  bg-surface-light">
+      <div class="rounded-lg image">
+        <img class="rounded-lg" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf">
+      </div>
+      <div class="pl-2">
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+        <div class="Name">sdfsdfsdf</div>
+      </div>
+    </li>
+    
+
+  </ul >
 <style>
  
 </style>
