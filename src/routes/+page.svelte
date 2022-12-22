@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   // Import Swiper Svelte components
   import { Swiper, SwiperSlide } from 'swiper/svelte';
   import "swiper/css/pagination"
@@ -28,7 +30,76 @@
    
     
   </Swiper>
-
+  <br>
+  <br>
+<div class="flex overflow-x-scroll">
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image"></div>
+    <div>Daster</div>
+  </div>
+ 
+</div>
+  <ul class="grid grid-cols-2 gap-4">
+    <li>01</li>
+    <li>02</li>
+    <li>03</li>
+    <li>04</li>
+    <li>05</li>
+    <li>06</li>
+    <li>07</li>
+    <li>08</li>
+    <li>09</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+  </ul>
 <style>
  
 </style>
