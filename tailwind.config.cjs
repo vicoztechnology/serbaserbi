@@ -76,12 +76,12 @@ module.exports = {
         dark: '#968e98'
       },
       'background': {
-        light: '#fffbff',
-        dark: '#1d1b1e'
+        light: '#FFFBFE',
+        dark: '#1C1B1F'
       },
       'on-background': {
-        light: '#1d1b1e',
-        dark: '#e7e1e5'
+        light: '#1C1B1F',
+        dark: '#E6E1E5'
       },
       'surface': {
         light: '#fffbff',
