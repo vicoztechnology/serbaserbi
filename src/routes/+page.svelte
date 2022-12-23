@@ -30,92 +30,79 @@
    
     
   </Swiper>
-<div class="px-3">
+<div class="px-3 font-extrabold">
   Kategori
 </div>
 <div class="flex py-3 no-scrollbar overflow-x-scroll">
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/900/40/40.jpg?hmac=EUjE6QnfVntL1F4XQ3Bid65_0c2TL21end0F0zZH05A" alt="image" width="40px" height="40px"></div>
+    <div class="pt-2 text-center">Gamis</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/519/40/40.jpg?hmac=aiBS9v5JpuTaz-HtO491Ua6aWmNWEnaAM881fKspX1o" alt="image" width="40px" height="40px"></div>
+    <div class="pt-2 text-center">Celana</div>
+  </div>
+  <div class="px-3 flex-none">
+    <div><img class="rounded-full" src="https://i.picsum.photos/id/82/40/40.jpg?hmac=daXEubMPIeHeLdu2Nr1snGuwqWZoDN-_FuKA2r5sNFU" alt="image" width="40px" height="40px"></div>
+    <div class="pt-2 text-center">Gerabah</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
   <div class="px-3 flex-none">
     <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
-  </div>
-  <div class="px-3 flex-none">
-    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
-  </div>
-  <div class="px-3 flex-none">
-    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
-  </div>
-  <div class="px-3 flex-none">
-    <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image" width="40px" height="40px"></div>
-    <div>Daster</div>
+    <div class="pt-2 text-center">Daster</div>
   </div>
  
 </div>
-<div class="new">
 
+<div class="flex py-1 px-3 font-extrabold">
+  <div class="basis-1/2"> Terbaru</div>
+  <div class="basis-1/2 text-right"> Lainnya</div>
+ 
 </div>
-
   <ul class="grid grid-cols-2 gap-4 pb-20 px-3">
     <li class="rounded-xl bg-surface-light border border-outline-light pb-3">
       <div class="rounded-xl image">
         <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
       </div>
       <div class="px-2">
-        <div class="title font-bold">Sarung Wadimor PX-299393</div>
-        <div class="price font-extrabold text-error-light">Rp. 15.000</div>
-        <div class="diskon line-through">Rp. 25.000</div>
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-bold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
         <div class="rating flex">
-          <div class="star ">
-            <span><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M7.333 14.896 10 13.312l2.688 1.584-.709-3 2.313-1.979-3.063-.271L10 6.792 8.771 9.646l-3.063.271 2.334 1.979Zm2.667.166-3.417 2.042q-.229.125-.448.104-.218-.02-.385-.146-.167-.124-.25-.343-.083-.219-.021-.448l.896-3.813-3.021-2.562q-.187-.167-.229-.386-.042-.218.021-.427.062-.208.229-.343.167-.136.417-.157l3.958-.354 1.562-3.625q.105-.229.292-.344.188-.114.396-.114.208 0 .396.114.187.115.292.344L12.25 8.25l3.958.333q.25.021.417.167.167.146.229.354.063.208.011.417-.053.208-.24.375l-3 2.562.896 3.813q.062.229-.021.448t-.25.343q-.167.126-.385.146-.219.021-.448-.104Zm0-4Z"/></svg> </span> 
-          </div>
-       
-        </div>
-      </div>
-    </li>
-    <li class="rounded-xl  bg-surface-light border border-outline-light pb-3">
-      <div class="rounded-xl image">
-        <img class="rounded-xl" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf" width="250px" height="250px">
-      </div>
-      <div class="px-2">
-        <div class="title font-bold">Daster Payung SN-012993</div>
-        <div class="price font-extrabold text-error-light">Rp. 12.000</div>
-        <div class="diskon line-through">Rp. 25.000</div>
-        <div class="rating flex">
-          <div class="star ">
-            <span><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M7.333 14.896 10 13.312l2.688 1.584-.709-3 2.313-1.979-3.063-.271L10 6.792 8.771 9.646l-3.063.271 2.334 1.979Zm2.667.166-3.417 2.042q-.229.125-.448.104-.218-.02-.385-.146-.167-.124-.25-.343-.083-.219-.021-.448l.896-3.813-3.021-2.562q-.187-.167-.229-.386-.042-.218.021-.427.062-.208.229-.343.167-.136.417-.157l3.958-.354 1.562-3.625q.105-.229.292-.344.188-.114.396-.114.208 0 .396.114.187.115.292.344L12.25 8.25l3.958.333q.25.021.417.167.167.146.229.354.063.208.011.417-.053.208-.24.375l-3 2.562.896 3.813q.062.229-.021.448t-.25.343q-.167.126-.385.146-.219.021-.448-.104Zm0-4Z"/></svg> </span> 
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
           </div>
        
         </div>
@@ -126,33 +113,87 @@
         <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
       </div>
       <div class="px-2">
-        <div class="title font-bold">Sarung Wadimor PX-299393</div>
-        <div class="price font-extrabold text-error-light">Rp. 15.000</div>
-        <div class="diskon line-through">Rp. 25.000</div>
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-extrabold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
         <div class="rating flex">
-          <div class="star ">
-            <span><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M7.333 14.896 10 13.312l2.688 1.584-.709-3 2.313-1.979-3.063-.271L10 6.792 8.771 9.646l-3.063.271 2.334 1.979Zm2.667.166-3.417 2.042q-.229.125-.448.104-.218-.02-.385-.146-.167-.124-.25-.343-.083-.219-.021-.448l.896-3.813-3.021-2.562q-.187-.167-.229-.386-.042-.218.021-.427.062-.208.229-.343.167-.136.417-.157l3.958-.354 1.562-3.625q.105-.229.292-.344.188-.114.396-.114.208 0 .396.114.187.115.292.344L12.25 8.25l3.958.333q.25.021.417.167.167.146.229.354.063.208.011.417-.053.208-.24.375l-3 2.562.896 3.813q.062.229-.021.448t-.25.343q-.167.126-.385.146-.219.021-.448-.104Zm0-4Z"/></svg> </span> 
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
           </div>
        
         </div>
       </div>
     </li>
-    <li class="rounded-xl  bg-surface-light border border-outline-light pb-3">
+    <li class="rounded-xl bg-surface-light border border-outline-light pb-3">
       <div class="rounded-xl image">
-        <img class="rounded-xl" src="https://i.picsum.photos/id/183/250/250.jpg?hmac=7EBRoHK5JoetavOqWnoN9KKT2hlrVozE2bwQJosPriQ" alt="sdf sdf" width="250px" height="250px">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
       </div>
       <div class="px-2">
-        <div class="title font-bold">Daster Payung SN-012993</div>
-        <div class="price font-extrabold text-error-light">Rp. 12.000</div>
-        <div class="diskon line-through">Rp. 25.000</div>
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-extrabold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
         <div class="rating flex">
-          <div class="star ">
-            <span><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M7.333 14.896 10 13.312l2.688 1.584-.709-3 2.313-1.979-3.063-.271L10 6.792 8.771 9.646l-3.063.271 2.334 1.979Zm2.667.166-3.417 2.042q-.229.125-.448.104-.218-.02-.385-.146-.167-.124-.25-.343-.083-.219-.021-.448l.896-3.813-3.021-2.562q-.187-.167-.229-.386-.042-.218.021-.427.062-.208.229-.343.167-.136.417-.157l3.958-.354 1.562-3.625q.105-.229.292-.344.188-.114.396-.114.208 0 .396.114.187.115.292.344L12.25 8.25l3.958.333q.25.021.417.167.167.146.229.354.063.208.011.417-.053.208-.24.375l-3 2.562.896 3.813q.062.229-.021.448t-.25.343q-.167.126-.385.146-.219.021-.448-.104Zm0-4Z"/></svg> </span> 
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
           </div>
        
         </div>
       </div>
     </li>
+    <li class="rounded-xl bg-surface-light border border-outline-light pb-3">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
+      </div>
+      <div class="px-2">
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-extrabold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+        <div class="rating flex">
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
+          </div>
+       
+        </div>
+      </div>
+    </li>
+    <li class="rounded-xl bg-surface-light border border-outline-light pb-3">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
+      </div>
+      <div class="px-2">
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-extrabold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+        <div class="rating flex">
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
+          </div>
+       
+        </div>
+      </div>
+    </li>
+    <li class="rounded-xl bg-surface-light border border-outline-light pb-3">
+      <div class="rounded-xl image">
+        <img class="rounded-xl" src="https://i.picsum.photos/id/967/250/250.jpg?hmac=w4BZ7zddVJJIVjh_jvvaya9W4rHv923O1gXJoTa36Iw" alt="sdf sdf" width="250px" height="250px">
+      </div>
+      <div class="px-2">
+        <div class="title text-sm font-bold text-on-surface-light">Sarung Wadimor PX-299393</div>
+        <div class="price text-sm font-extrabold text-error-light">Rp. 15.000</div>
+        <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+        <div class="rating flex">
+          <div class="star flex items-center ">
+            <span><svg class="fill-primary-light" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8.833 16.438-1.291-1.167q-2.334-2.104-4.104-4.083-1.771-1.98-1.771-4.376 0-1.958 1.323-3.291 1.322-1.333 3.302-1.333 1.125 0 2.083.468.958.469 1.625 1.198.646-.729 1.604-1.198.958-.468 2.084-.468 1.979 0 3.312 1.333 1.333 1.333 1.333 3.291 0 2.396-1.802 4.396t-4.26 4.23l-1.104 1q-.479.458-1.157.447-.677-.01-1.177-.447Z"/></svg> </span> 
+         <span class="text-on-surface-light pl-1">98</span>
+          </div>
+       
+        </div>
+      </div>
+    </li>
+    
     
 
   </ul >
