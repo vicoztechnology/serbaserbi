@@ -3,12 +3,12 @@ import "../app.css";
 import "@fontsource/roboto-flex"
 </script>
 
-<nav class="flex xx inset-x-0 z-10 fixed px-3 py-2 bg-surface-light dark:bg-surface-dark top-0 text-on-surface-variant-light">
-    <div class="basis-1/3">
-        <a href="/" class="">serbserbi.id</a>
+<nav class="flex xx item-center inset-x-0 z-10 fixed px-3 py-3 bg-surface-light dark:bg-surface-dark top-0 text-on-surface-variant-light">
+    <div class="basis-1/3 item-center" >
+        <a href="/" class="font-extrabold text-base ">serbserbi.id</a>
     </div>
-    <div class="basis-1/3">
-        <a href="/" class="">serbserbi.id</a>
+    <div class="basis-1/3 item-center">
+        <a href="/" class="item-center"></a>
     </div>
     <div class="basis-1/3 text-right ">
         <button>
@@ -28,22 +28,22 @@ import "@fontsource/roboto-flex"
 <slot />
 </div>
 <nav class="flex xx  text-on-surface-variant-light py-3  text-center flex-row fixed inset-x-0 bottom-0 bg-surface-light dark:bg-surface-dark" >
-    <div class="basis-1/4">
+    <a href="/" class="basis-1/4">
         <button class="bg-secondary-container-light  py-1 px-5 rounded-full text-on-secondary-container-light">
             <span> 
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M6 19h3v-6h6v6h3v-9l-6-4.5L6 10Zm0 2q-.825 0-1.412-.587Q4 19.825 4 19v-9q0-.475.213-.9.212-.425.587-.7l6-4.5q.275-.2.575-.3.3-.1.625-.1t.625.1q.3.1.575.3l6 4.5q.375.275.588.7.212.425.212.9v9q0 .825-.587 1.413Q18.825 21 18 21h-5v-6h-2v6Zm6-8.75Z"/></svg>
             </span>
         </button>
         <div class="text-on-secondary-container-light font-bold">Home</div>
-    </div>
-    <div class="basis-1/4 ">
+    </a>
+    <a href="/chat" class="basis-1/4 ">
         <button class="bg-surface-light py-1 px-5 rounded-full text-on-secondary-container-light">
            <span class="material-symbols-rounded"> 
             <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M7 14h6.025q.425 0 .7-.288Q14 13.425 14 13t-.287-.713Q13.425 12 13 12H6.975q-.425 0-.7.287Q6 12.575 6 13t.287.712Q6.575 14 7 14Zm0-3h10.025q.425 0 .7-.288Q18 10.425 18 10t-.288-.713Q17.425 9 17 9H6.975q-.425 0-.7.287Q6 9.575 6 10t.287.712Q6.575 11 7 11Zm0-3h10.025q.425 0 .7-.287Q18 7.425 18 7t-.288-.713Q17.425 6 17 6H6.975q-.425 0-.7.287Q6 6.575 6 7t.287.713Q6.575 8 7 8ZM2 19.575V4q0-.825.588-1.413Q3.175 2 4 2h16q.825 0 1.413.587Q22 3.175 22 4v12q0 .825-.587 1.413Q20.825 18 20 18H6l-2.3 2.3q-.475.475-1.088.212Q2 20.25 2 19.575Zm2-2.4L5.175 16H20V4H4ZM4 4v13.175Z"/></svg>
            </span>
         </button>
         <div>Chat</div>
-    </div>
+    </a>
     <div class="basis-1/4">
         <button class="bg-surface-light  py-1 px-5 rounded-full text-on-secondary-container-light">
             <span class="material-symbols-rounded"> 

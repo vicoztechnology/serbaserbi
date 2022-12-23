@@ -84,6 +84,51 @@
   </div>
  
 </div>
+<div class="flex py-1 px-3 font-extrabold bg-surface-light">
+  <div class="basis-1/2"> Promo</div>
+  <div class="basis-1/2 text-right"> Lainnya</div>
+ 
+</div>
+<div class=" promo-content bg-surface-light flex px-3 py-3 no-scrollbar overflow-x-scroll">
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/988/75/100.jpg?hmac=6d3TiNvb7sfZ6qyHN7Yf6tHz-lPtTb09Ww5JcadEiJ4"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/887/75/100.jpg?hmac=ns9nVUOu5Dc3tMCB8BSAzZSq4l6pWtuke7LugMz9JrY"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/988/75/100.jpg?hmac=6d3TiNvb7sfZ6qyHN7Yf6tHz-lPtTb09Ww5JcadEiJ4"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/988/75/100.jpg?hmac=6d3TiNvb7sfZ6qyHN7Yf6tHz-lPtTb09Ww5JcadEiJ4"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/988/75/100.jpg?hmac=6d3TiNvb7sfZ6qyHN7Yf6tHz-lPtTb09Ww5JcadEiJ4"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  <div class="pr-3 flex-none">
+    <div><img class="rounded-xl" src="https://i.picsum.photos/id/988/75/100.jpg?hmac=6d3TiNvb7sfZ6qyHN7Yf6tHz-lPtTb09Ww5JcadEiJ4"></div>
+    <div class="pt-1">Daster</div>
+    <div class="price text-error-light">Rp. 15.000</div>
+    <div class="diskon line-through text-on-surface-variant-light">Rp. 25.000</div>
+  </div>
+  
+ 
+</div>
 
 <div class="flex py-1 px-3 font-extrabold">
   <div class="basis-1/2"> Terbaru</div>
