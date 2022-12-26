@@ -63,12 +63,12 @@ import 'swiper/css';
 
 
 </div>
-<div class="flex py-1 px-3 text-on-background-light dark:text-on-background-dark font-extrabold ">
+<div class="flex py-1 px-3 bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-background-dark font-extrabold ">
     <div class="basis-1/2"> Promo</div>
     <div class="basis-1/2  text-right"> Lihat semuanya</div>
 
 </div>
-<div class=" promo-content flex px-3 py-1 no-scrollbar overflow-x-scroll">
+<div class=" promo-content bg-surface-light dark:bg-surface-dark flex px-3 py-2 no-scrollbar overflow-x-scroll">
     <div class="flex-none text-on-tertiary-container-light dark:text-on-tertiary-container-dark bg-tertiary-container-light dark:bg-tertiary-container-dark rounded-xl mr-2">
         <div><img class="rounded-xl" src="https://i.picsum.photos/id/928/100/125.jpg?hmac=CL0GU-EKGfYFlTJAO6UT1LeLBzZUuJJOx46KFW7J3-k" width="100px" height="125px" alt="promo1"></div>
         <div class="px-1 pb-2">
