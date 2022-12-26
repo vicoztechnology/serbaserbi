@@ -84,7 +84,7 @@ module.exports = {
         dark: '#E6E1E5'
       },
       'surface': {
-        light: '#fffbff',
+        light: '#f7f2f9',
         dark: '#1d1b1e'
       },
       'on-surface': {
