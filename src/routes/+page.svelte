@@ -1,6 +1,11 @@
 <script>
 // @ts-nocheck
 
+      import {navbottom} from '../lib/stores/stores'
+
+$navbottom='visible'
+// @ts-nocheck
+
 // Import Swiper Svelte components
 import {
     Swiper,
@@ -14,6 +19,7 @@ import {
 
 // Import Swiper styles
 import 'swiper/css';
+
 </script>
 <div class="mt-1">
 <Swiper
