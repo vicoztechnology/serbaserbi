@@ -1,9 +1,11 @@
 <script>
 import {
-    navbottom
+    navbottom,
+    backarrow
 } from '../../lib/stores/stores'
 
 $navbottom = 'invisible'
+$backarrow = true
 </script>
 /
 <div class="chat pt-5 pr-2 pl-2">
@@ -33,7 +35,8 @@ $navbottom = 'invisible'
 <div class="basis-1/6 text-center ">
     <button>
 <span class="">
-    <svg class="fill-primary-light dark:fill-primary-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M3 20v-6l8-2-8-2V4l19 8Z"/></svg>
+    <svg class="fill-primary-light dark:fill-primary-dark" xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M5 33.333V23.208L17.833 20 5 16.75V6.667L36.667 20Z"/></svg>
+
 </span>
 </button>
 </div>

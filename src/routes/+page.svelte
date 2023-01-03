@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-      import {navbottom} from '../lib/stores/stores'
+      import {navbottom, backarrow} from '../lib/stores/stores'
 
 $navbottom='visible'
 // @ts-nocheck
@@ -20,6 +20,9 @@ import {
 // Import Swiper styles
 import 'swiper/css';
 
+
+$navbottom = 'visible'
+$backarrow = false
 </script>
 <div class="mt-1">
 <Swiper
