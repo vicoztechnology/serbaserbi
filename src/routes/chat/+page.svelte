@@ -5,7 +5,7 @@ import {
 } from '../../lib/stores/stores'
 
 $navbottom = 'invisible'
-$backarrow = true
+$backarrow =true
 </script>
 /
 <div class="chat pt-5 pr-2 pl-2">
