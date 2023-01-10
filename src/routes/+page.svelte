@@ -24,6 +24,9 @@ import 'swiper/css';
 $navbottom = 'visible'
 $backarrow = false
 </script>
+<svelte:head>
+    <title>Serbaserbi Sahabat Reseller</title>
+</svelte:head>
 <div class="mt-1">
 <Swiper
     pagination={true}
