@@ -7,7 +7,9 @@ import {
 $navbottom = 'invisible'
 $backarrow =true
 </script>
-/
+<svelte:head>
+    <title>Chat dengan admin serbaserbi</title>
+</svelte:head>
 <div class="chat pt-5 pr-2 pl-2">
 
     <div class="m-1 p-1 rounded-full float-right pl-4 pr-4  bg-primary-container-light dark:bg-primary-container-dark dark:text-on-primary-container-dark text-on-primary-container-light">

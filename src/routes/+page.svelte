@@ -26,6 +26,8 @@ $backarrow = false
 </script>
 <svelte:head>
     <title>Serbaserbi Sahabat Reseller</title>
+    <meta name="description"
+    content="serbaserbi.id: temukan harga termurah untuk Daster, Mukena, Gamis, Kulot, Celana pendek">
 </svelte:head>
 <div class="mt-1">
 <Swiper

@@ -21,6 +21,11 @@
 		border-radius: 75px;
 	}
 </style>
+<svelte:head>
+	<title>Profil Pengguna serbaserbi.id</title>
+	<meta name="description"
+    content="Profil penguna serbaserbi.id">
+</svelte:head>
 
 <div
 	class="saya pt-5 bg-background-light dark:bg-background-dark text-on-background-light
@@ -30,7 +35,7 @@
 		<div class="basis-11/12 mr-10 ml-10">
 			<img
 				class="round"
-				src="https://i.picsum.photos/id/454/400/300.jpg?hmac=1bl3dwhodO9L67DJhDEo6zThbt-xMAIIYkWx3oX2zrI" />
+				src="https://i.picsum.photos/id/454/400/300.jpg?hmac=1bl3dwhodO9L67DJhDEo6zThbt-xMAIIYkWx3oX2zrI" height="300px" width="400px" alt="gambar profil user"/>
 			<div class="text-center text-lg pr-6 pl-4">Tofik Hidayat</div>
 			<div class="text-center text-xl pr-6 pl-4">Classic Member</div>
 			<div class="text-center pr-6 pl-4">Sejak Januari 2023</div>
