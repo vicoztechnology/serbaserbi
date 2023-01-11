@@ -1,4 +1,5 @@
 <script>
+import { fade } from 'svelte/transition'
 import {
     navbottom,
     backarrow
@@ -12,7 +13,7 @@ $backarrow =true
     <meta name="description"
     content="chat dengan admin serbaserbi.id">
 </svelte:head>
-<div class="chat pt-5 pr-2 pl-2">
+<div class="chat pt-5 pr-2 pl-2 " transition:fade="{{delay: 250, duration: 300}}">
 
     <div class="m-1 p-1 rounded-full float-right pl-4 pr-4  bg-primary-container-light dark:bg-primary-container-dark dark:text-on-primary-container-dark text-on-primary-container-light">
         <p class="float-right ">

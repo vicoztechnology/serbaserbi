@@ -19,6 +19,7 @@ import {
 
 // Import Swiper styles
 import 'swiper/css';
+import { fade } from 'svelte/transition'
 
 
 $navbottom = 'visible'
@@ -29,6 +30,7 @@ $backarrow = false
     <meta name="description"
     content="serbaserbi.id: temukan harga termurah untuk Daster, Mukena, Gamis, Kulot, Celana pendek">
 </svelte:head>
+<div class="" transition:fade="{{delay: 250, duration: 300}}">
 <div class="mt-1">
 <Swiper
     pagination={true}
@@ -176,7 +178,5 @@ $backarrow = false
 </li>
                        
 </ul >
+</div>
 
-<style>
- 
-</style>

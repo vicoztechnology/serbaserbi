@@ -1,6 +1,6 @@
 <script>
 	import { navbottom, backarrow } from '../../lib/stores/stores';
-	import { slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition'
 
 	$navbottom = 'visible';
 	$backarrow = true;
@@ -29,7 +29,7 @@
 
 <div
 	class="saya pt-5 bg-background-light dark:bg-background-dark text-on-background-light
-	dark:text-on-background-dark">
+	dark:text-on-background-dark" transition:fade="{{delay: 250, duration: 300}}">
 	
 	<div class="flex flex-row pl-16 pr-6">
 		<div class="basis-1/1">
@@ -41,8 +41,8 @@
 			<div class="text-center pr-6 pl-4">Sejak Januari 2023</div>
 		</div>
 	</div>
-	<div class="pt-4 divide-y-2 divide-outline-variant-light dark:divide-outline-variant-dark">
-		<a href="/saya/profil/"class="pt-3 pb-3 pl-16 pr-6 flex">
+	<div class="pt-4 divide-y-2 pl-16 pr-6 divide-outline-variant-light dark:divide-outline-variant-dark">
+		<a href="/saya/profil/"class="pt-3 pb-3  flex">
 			<div class="flex basis-1/2">
 Profile
 			</div>
@@ -52,7 +52,7 @@ Profile
 				</span>
 			</div>
 		</a>
-		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+		<div class="pt-3 pb-3  flex">
 			<div class="flex basis-1/2">
 				Daftar Pesanan
 							</div>
@@ -62,7 +62,7 @@ Profile
 								</span>
 							</div>
 		</div>
-		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+		<div class="pt-3 pb-3  flex">
 			<div class="flex basis-1/2">
 				Buku Alamat
 							</div>
@@ -72,7 +72,7 @@ Profile
 								</span>
 							</div>
 		</div>
-		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+		<div class="pt-3 pb-3  flex">
 			<div class="flex basis-1/2">
 				Voucher
 							</div>
