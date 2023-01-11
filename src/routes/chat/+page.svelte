@@ -9,6 +9,8 @@ $backarrow =true
 </script>
 <svelte:head>
     <title>Chat dengan admin serbaserbi</title>
+    <meta name="description"
+    content="chat dengan admin serbaserbi.id">
 </svelte:head>
 <div class="chat pt-5 pr-2 pl-2">
 
@@ -33,9 +35,9 @@ $backarrow =true
     </div>
 </div>
 <div class="input_chat xx flex flex-row fixed inset-x-0 bottom-0 p-3 items-center">
-<textarea class="basis-5/6 bg-surface-light dark:bg-surface-dark rounded-full text-on-surface-light dark:text-on-surface-dark p-2 "></textarea>
+<textarea aria-label="text isi pesan" id="isipesan" class="basis-5/6 bg-surface-light dark:bg-surface-dark rounded-full text-on-surface-light dark:text-on-surface-dark p-2 "></textarea>
 <div class="basis-1/6 text-center ">
-    <button>
+    <button id="btn-sent" aria-label="tombol kirim">
 <span class="">
     <svg class="fill-primary-light dark:fill-primary-dark" xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M5 33.333V23.208L17.833 20 5 16.75V6.667L36.667 20Z"/></svg>
 
