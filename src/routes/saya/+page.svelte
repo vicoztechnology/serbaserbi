@@ -2,7 +2,7 @@
 	import { navbottom, backarrow } from '../../lib/stores/stores';
 	import { slide } from 'svelte/transition';
 
-	$navbottom = 'invisible';
+	$navbottom = 'visible';
 	$backarrow = true;
 	let item;
 	let x;
@@ -30,6 +30,62 @@
 <div
 	class="saya pt-5 bg-background-light dark:bg-background-dark text-on-background-light
 	dark:text-on-background-dark">
+	
+	<div class="flex flex-row pl-16 pr-6">
+		<div class="basis-1/1">
+			<img
+				class="round"
+				src="https://i.picsum.photos/id/454/400/300.jpg?hmac=1bl3dwhodO9L67DJhDEo6zThbt-xMAIIYkWx3oX2zrI" height="300px" width="400px" alt="gambar profil user"/>
+			<div class="text-center text-lg pr-6 pl-4">Tofik Hidayat</div>
+			<div class="text-center text-xl pr-6 pl-4">Classic Member</div>
+			<div class="text-center pr-6 pl-4">Sejak Januari 2023</div>
+		</div>
+	</div>
+	<div class="pt-4 divide-y-2 divide-outline-variant-light dark:divide-outline-variant-dark">
+		<a href="/saya/profil/"class="pt-3 pb-3 pl-16 pr-6 flex">
+			<div class="flex basis-1/2">
+Profile
+			</div>
+			<div class="flex basis-1/2 justify-end">
+				<span>
+					<svg class="fill-on-background-light dark:fill-on-background-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M8.7 17.3q-.275-.275-.275-.7 0-.425.275-.7l3.9-3.9-3.9-3.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.6 4.6q.15.15.213.325.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.7.275-.425 0-.7-.275Z"/></svg>
+				</span>
+			</div>
+		</a>
+		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+			<div class="flex basis-1/2">
+				Daftar Pesanan
+							</div>
+							<div class="flex basis-1/2 justify-end">
+								<span>
+									<svg class="fill-on-background-light dark:fill-on-background-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M8.7 17.3q-.275-.275-.275-.7 0-.425.275-.7l3.9-3.9-3.9-3.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.6 4.6q.15.15.213.325.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.7.275-.425 0-.7-.275Z"/></svg>
+								</span>
+							</div>
+		</div>
+		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+			<div class="flex basis-1/2">
+				Buku Alamat
+							</div>
+							<div class="flex basis-1/2 justify-end">
+								<span>
+									<svg class="fill-on-background-light dark:fill-on-background-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M8.7 17.3q-.275-.275-.275-.7 0-.425.275-.7l3.9-3.9-3.9-3.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.6 4.6q.15.15.213.325.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.7.275-.425 0-.7-.275Z"/></svg>
+								</span>
+							</div>
+		</div>
+		<div class="pt-3 pb-3 pl-16 pr-6 flex">
+			<div class="flex basis-1/2">
+				Voucher
+							</div>
+							<div class="flex basis-1/2 justify-end">
+								<span>
+									<svg class="fill-on-background-light dark:fill-on-background-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M8.7 17.3q-.275-.275-.275-.7 0-.425.275-.7l3.9-3.9-3.9-3.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.6 4.6q.15.15.213.325.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.7.275-.425 0-.7-.275Z"/></svg>
+								</span>
+							</div>
+		</div>
+	</div>
+</div>
+
+	<!--
 	<div class="flex flex-row">
 		<div class="basis-1/12" />
 		<div class="basis-11/12 mr-10 ml-10">
@@ -231,5 +287,5 @@
 
 		</div>
 	</div>
+-->
 
-</div>
