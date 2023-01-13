@@ -1,6 +1,6 @@
 <script>
 	import { navbottom, backarrow } from '../../lib/stores/stores';
-	import { fade } from 'svelte/transition'
+
 
 	$navbottom = 'visible';
 	$backarrow = true;
@@ -28,13 +28,13 @@
 </svelte:head>
 
 <div
-	class="saya pt-5 bg-background-light dark:bg-background-dark text-on-background-light
-	dark:text-on-background-dark" transition:fade="{{delay: 250, duration: 300}}">
+	class="saya  bg-background-light dark:bg-background-dark text-on-background-light
+	dark:text-on-background-dark" >
 	
-	<div class="flex flex-row pl-16 pr-6">
+	<div class="flex flex-row mt-16 ">
 		<div class="basis-1/1">
 			<img
-				class="round"
+				class="rounded-full"
 				src="https://i.picsum.photos/id/454/400/300.jpg?hmac=1bl3dwhodO9L67DJhDEo6zThbt-xMAIIYkWx3oX2zrI" height="300px" width="400px" alt="gambar profil user"/>
 			<div class="text-center text-lg pr-6 pl-4">Tofik Hidayat</div>
 			<div class="text-center text-xl pr-6 pl-4">Classic Member</div>

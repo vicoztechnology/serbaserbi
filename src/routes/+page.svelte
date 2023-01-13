@@ -19,7 +19,7 @@ import {
 
 // Import Swiper styles
 import 'swiper/css';
-import { fade } from 'svelte/transition'
+
 
 
 $navbottom = 'visible'
@@ -30,9 +30,10 @@ $backarrow = false
     <meta name="description"
     content="serbaserbi.id: temukan harga termurah untuk Daster, Mukena, Gamis, Kulot, Celana pendek">
 </svelte:head>
-<div class="" transition:fade="{{delay: 250, duration: 300}}">
-<div class="mt-1">
-<Swiper
+<div class="home text-on-background-light dark:text-on-background-dark" >
+<div class="carousel mt-16 ml-4 mr-4" height="250px" width="500px">
+   
+<Swiper 
     pagination={true}
     modules={[Pagination, Autoplay]}
     spaceBetween={1}
@@ -44,14 +45,15 @@ $backarrow = false
     }}
 
     >
-    <SwiperSlide class = "py-3 px-3 rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/26/500/250.jpg?hmac=aEMDV8A-c0ciLRML8vyh9VN_ur-69jZxJjlwNbyQOEc" alt="banner1" width="500px" height="250px"></SwiperSlide>
-    <SwiperSlide class = "py-3 px-3 rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/1066/500/250.jpg?hmac=pokx9pD_tKNT127IchfxrNPfCjxRtPHRK-m-b6dgrqM" alt="banner2" width="500px" height="250px"></SwiperSlide>
-    <SwiperSlide class = "py-3 px-3 rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/26/500/250.jpg?hmac=aEMDV8A-c0ciLRML8vyh9VN_ur-69jZxJjlwNbyQOEc" alt="banner3" width="500px" height="250px"></SwiperSlide>
-    <SwiperSlide class = "py-3 px-3 rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/1066/500/250.jpg?hmac=pokx9pD_tKNT127IchfxrNPfCjxRtPHRK-m-b6dgrqM" alt="banner4" width="500px" height="250px"></SwiperSlide>
+    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/26/500/250.jpg?hmac=aEMDV8A-c0ciLRML8vyh9VN_ur-69jZxJjlwNbyQOEc" alt="banner1" width="500px" height="250px"></SwiperSlide>
+    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/1066/500/250.jpg?hmac=pokx9pD_tKNT127IchfxrNPfCjxRtPHRK-m-b6dgrqM" alt="banner2" width="500px" height="250px"></SwiperSlide>
+    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/26/500/250.jpg?hmac=aEMDV8A-c0ciLRML8vyh9VN_ur-69jZxJjlwNbyQOEc" alt="banner3" width="500px" height="250px"></SwiperSlide>
+    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/1066/500/250.jpg?hmac=pokx9pD_tKNT127IchfxrNPfCjxRtPHRK-m-b6dgrqM" alt="banner4" width="500px" height="250px"></SwiperSlide>
 
 </Swiper>
 </div>
-<div class="px-3 font-extrabold text-on-background-light dark:text-on-background-dark">
+
+<div class="px-3 font-extrabold ">
     Kategori
 </div>
 <div class="flex py-3 no-scrollbar overflow-x-scroll text-on-background-light dark:text-on-background-dark">
@@ -178,5 +180,7 @@ $backarrow = false
 </li>
                        
 </ul >
+
 </div>
+
 
