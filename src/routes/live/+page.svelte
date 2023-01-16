@@ -12,7 +12,7 @@ $backarrow =true
     <meta name="description"
     content="Live serbaserbi.id">
 </svelte:head>
-<div class="live bg-background-light dark:bg-background-dark text-on-background-light dark:text-on-background-dark">
+<div class="live bg-background-light dark:bg-background-dark text-on-background-light dark:text-on-background-dark transition-colors duration-1000">
     <div class="mt-16">
         INI HALAMAN LIVE YEAHHHHHHHHHH
     </div>
