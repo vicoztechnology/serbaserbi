@@ -6,5 +6,5 @@
 	$backarrow = true;
 
 </script>
-<div class="pt-20 bg-background-light dark:bg-background-dark text-on-background-light
+<div class="pt-20 h-screen bg-background-light dark:bg-background-dark text-on-background-light
 dark:text-on-background-dark" >Profile</div>

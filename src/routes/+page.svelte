@@ -53,14 +53,14 @@ $backarrow = false
 </Swiper>
 </div>
 
-<div class="px-3 font-extrabold ">
+<div class="px-3 mt-2 font-extrabold ">
     Kategori
 </div>
 <div class="flex py-3 no-scrollbar overflow-x-scroll text-on-background-light dark:text-on-background-dark transition-colors duration-1000">
-    <div class="px-3 flex-none">
+    <a href="/kategori"class="px-3 flex-none">
         <div><img class="rounded-full" src="https://i.picsum.photos/id/607/40/40.jpg?hmac=Ijt6LLEVa-ujGAmafGEmFSO5V2L4pRwneb8M-hwF57I" alt="image1" width="40px" height="40px"></div>
         <div class="pt-2 text-center">Daster</div>
-    </div>
+    </a>
     <div class="px-3 flex-none">
         <div><img class="rounded-full" src="https://i.picsum.photos/id/900/40/40.jpg?hmac=EUjE6QnfVntL1F4XQ3Bid65_0c2TL21end0F0zZH05A" alt="image2" width="40px" height="40px"></div>
         <div class="pt-2 text-center">Gamis</div>

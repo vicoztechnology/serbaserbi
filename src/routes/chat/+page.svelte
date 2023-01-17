@@ -13,7 +13,7 @@ $backarrow =true
     <meta name="description"
     content="chat dengan admin serbaserbi.id">
 </svelte:head>
-<div class="chat text-on-background-light dark:text-on-background-dark transition-colors duration-1000">
+<div class="chat h-screen text-on-background-light dark:text-on-background-dark transition-colors duration-1000">
 <div class="isi mt-16">
    
 
