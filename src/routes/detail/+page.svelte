@@ -26,17 +26,14 @@ import 'swiper/css';
     content="detail produk serbaserbi.id">
 </svelte:head>
 
-<div class="detail h-screen  bg-background-light dark:bg-background-dark text-on-background-light
+<div class="detail  bg-background-light dark:bg-background-dark text-on-background-light
 	dark:text-on-background-dark transition-colors duration-1000 pr-2 pl-2" > 
     <div class="pt-16 ">
-        <Swiper 
-    pagination={true}
+        <Swiper pagination={true}
     modules={[Pagination, Autoplay]}
     spaceBetween={1}
     slidesPerView={1}
     loop={true}
-
-
     >
     <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/946/500/500.jpg?hmac=e790b958XsD9Y04pYBuhTjFq7FNETblcqo1KdbSz5Tk" alt="banner1" width="500px" height="5000px"></SwiperSlide>
     <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/3/500/500.jpg?hmac=1_eo6kK7TmgHDifRp6uCfrJgr7CctEIJZSez1KqbmJg" alt="banner2" width="500px" height="500px"></SwiperSlide>
@@ -72,12 +69,35 @@ import 'swiper/css';
         </div>
 
     </div>
-    <div class="rounded-xl p-2 deskripsi bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark transition-colors duration-1000">
+    <div class="pb-20 rounded-xl p-2 deskripsi bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark transition-colors duration-1000">
         <div class="judul-deskripsi font-bold text-sm pb-1">Deskripsi Produk</div>
         <hr class="border-outline-light dark:border-outline-dark">
         <div class="pt-2  text-justify">
             Daster Payung seri 25593 Produk dari Thalita. Panjang daster kurang lebi 110 cm dan lebar dada sekita 55. Daster Payung seri 25593 Produk dari Thalita. Panjang daster kurang lebi 110 cm dan lebar dada sekita 55. Daster Payung seri 25593 Produk dari Thalita. Panjang daster kurang lebi 110 cm dan lebar dada sekita 55. Daster Payung seri 25593 Produk dari Thalita. Panjang daster kurang lebi 110 cm dan lebar dada sekita 55.
         </div>
     </div>
+
+    <div class="pl-2 pb-2 pr-2 xx flex flex-row fixed bottom-0  inset-x-0 z-50">
+        <div class="basis-1/4 text-center">
+            <button type="button" class=" transition-colors duration-1000 border-outline-light dark:border-outline-dark border shadow-lg bg-background-light dark:bg-background-dark font-medium rounded-2xl text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2">
+             
+              <svg class=" fill-on-surface-light dark:fill-on-surface-dark transition-colors duration-1000" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M7 14h6.025q.425 0 .7-.288Q14 13.425 14 13t-.287-.713Q13.425 12 13 12H6.975q-.425 0-.7.287Q6 12.575 6 13t.287.712Q6.575 14 7 14Zm0-3h10.025q.425 0 .7-.288Q18 10.425 18 10t-.288-.713Q17.425 9 17 9H6.975q-.425 0-.7.287Q6 9.575 6 10t.287.712Q6.575 11 7 11Zm0-3h10.025q.425 0 .7-.287Q18 7.425 18 7t-.288-.713Q17.425 6 17 6H6.975q-.425 0-.7.287Q6 6.575 6 7t.287.713Q6.575 8 7 8ZM2 19.575V4q0-.825.588-1.413Q3.175 2 4 2h16q.825 0 1.413.587Q22 3.175 22 4v12q0 .825-.587 1.413Q20.825 18 20 18H6l-2.3 2.3q-.475.475-1.088.212Q2 20.25 2 19.575Zm2-2.4L5.175 16H20V4H4ZM4 4v13.175Z"/></svg>
+              </button>
+        </div>
+        <div class="basis-1/4 text-center">
+            <button type="button" class="shadow-lg transition-colors duration-1000 text-on-tertiary-container-light dark:text-on-tertiary-container-dark bg-tertiary-container-light dark:bg-tertiary-container-dark font-medium rounded-2xl text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2">
+                 <svg class="transition-colors duration-1000 fill-on-tertiary-container-light dark:fill-on-tertiary-container-dark" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 9q-.425 0-.712-.288Q11 8.425 11 8V6H9q-.425 0-.712-.287Q8 5.425 8 5t.288-.713Q8.575 4 9 4h2V2q0-.425.288-.713Q11.575 1 12 1t.713.287Q13 1.575 13 2v2h2q.425 0 .713.287Q16 4.575 16 5t-.287.713Q15.425 6 15 6h-2v2q0 .425-.287.712Q12.425 9 12 9ZM7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM7 17q-1.15 0-1.737-.988-.588-.987-.013-1.962L6.6 11.6 3 4H2q-.425 0-.712-.288Q1 3.425 1 3t.288-.713Q1.575 2 2 2h1.65q.275 0 .525.15t.375.425L8.525 11h7.025l3.6-6.5q.125-.225.35-.363Q19.725 4 20 4q.575 0 .863.487.287.488.012.988L17.3 11.95q-.275.5-.738.775Q16.1 13 15.55 13H8.1L7 15h11q.425 0 .712.287.288.288.288.713t-.288.712Q18.425 17 18 17Z"/></svg>
+              
+              </button>
+        </div>
+      
+        <div class="basis-2/4 text-center">
+            <button type="button" class="shadow-lg transition-colors duration-1000 text-on-primary-light dark:text-on-primary-dark bg-primary-light dark:bg-primary-dark font-bold rounded-lg text-sm px-5 py-3 text-center inline-flex items-center ">
+               
+                Beli Sekarang
+                
+              </button>
+        </div>
+      </div>
     
 </div>
