@@ -41,7 +41,7 @@
 
 <div class="modal-background z-40 " on:click={close}></div>
 
-<div class="modal pl-6 pr-6 pt-6 bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark rounded-t-3xl p-3" role="dialog" aria-modal="true" bind:this={modal} transition:fly="{{ y: 200, duration: 1000 }}">
+<div class="modal pl-6 pr-6 pt-6 bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark rounded-t-3xl p-3" role="dialog" aria-modal="true" bind:this={modal} transition:fly="{{ y: 200, duration: 500 }}">
 	
 	
 	<slot></slot>

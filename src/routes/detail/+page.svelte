@@ -107,9 +107,20 @@ import 'swiper/css';
     <img class="rounded-lg" src="https://i.picsum.photos/id/885/50/50.jpg?hmac=8EfJbEOuT71B-ujc3i_tvU3BeJ6aAGO_kWAqtkGIeKY" alt="gambar produk"/>
     <span class="pl-10">Daster Payung 25593</span>
 </div>
-<hr class="mt-3">
-	<div class="">
-        <div class="">Rp. 16.000</div>
+<hr class="mt-3 border-outline-light dark:border-outline-dark mb-2">
+	<div class="flex">
+      <div class="harga basis-1/2">
+         <div class="harga text-base dark:text-error-dark text-error-light transition-colors duration-1000">Rp.26.000</div>
+         <div class="harga2 line-through  harga dark:text-on-surface-variant-dark text-on-surface-variant-light transition-colors duration-1000">Rp.16.000</div>
+      </div>
+      <div class="tombol-tambah basis-1/2 flex items-center ">
+        <button class="mr-2 border rounded-lg border-outline-light dark:border-outline-dark p-1"><svg class="fill-on-surface-light dark:fill-on-surface-dark transition-colors duration-1000" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M5.146 10.771q-.334 0-.584-.25-.25-.25-.25-.583 0-.313.25-.563.25-.25.584-.25h9.729q.313 0 .563.25.25.25.25.563 0 .333-.25.583-.25.25-.563.25Z"/></svg></button>
+        <span class="text-base mr-2">6</span>
+        <button class="border rounded-lg border-outline-light dark:border-outline-dark p-1"><svg class="fill-on-surface-light dark:fill-on-surface-dark transition-colors duration-1000" xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M10 15.833q-.354 0-.615-.26-.26-.261-.26-.615v-4.083H5.042q-.354 0-.615-.26-.26-.261-.26-.615t.26-.615q.261-.26.615-.26h4.083V5.042q0-.354.26-.615.261-.26.615-.26t.615.26q.26.261.26.615v4.083h4.083q.354 0 .615.26.26.261.26.615t-.26.615q-.261.26-.615.26h-4.083v4.083q0 .354-.26.615-.261.26-.615.26Z"/></svg></button>
+      </div>
+    </div>
+    <div class="text-center">
+        <button class=" w-full mt-3 p-4 rounded-3xl bg-primary-light dark:bg-primary-dark text-on-primary-light dark:text-on-primary-dark ">Tambah ke Keranjang</button>
     </div>
 	</Modal>
 {/if}
