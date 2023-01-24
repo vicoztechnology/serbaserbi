@@ -9,18 +9,33 @@ import Modal from './Modal.svelte';
     Swiper,
     SwiperSlide
 } from 'swiper/svelte';
-import "swiper/css/pagination"
+import "swiper/css/pagination";
+
 import {
     Pagination,
-    Autoplay
+    Autoplay,
+    FreeMode,
+    Navigation,
+    Thumbs
 } from "swiper";
-
+import "swiper/css/free-mode";
+  import "swiper/css/navigation";
+  import "swiper/css/thumbs";
 // Import Swiper styles
 import 'swiper/css';
 
     $navbottom = 'invisible'
     $backarrow =true
-    let showModal = true;
+    let showModal = false;
+    let thumbsSwiper = null;
+
+  const setThumbsSwiper = (e) => {
+    const [swiper] = e.detail;
+    // set Thumbs swiper instance
+    setTimeout(() => {
+      thumbsSwiper = swiper;
+    });
+  };
 </script>
 <svelte:head>
     <title>Detail Produk</title>
@@ -31,20 +46,47 @@ import 'swiper/css';
 <div class="detail  bg-background-light dark:bg-background-dark text-on-background-light
 	dark:text-on-background-dark transition-colors duration-1000" > 
     <div class="pt-16 pl-2 pr-2">
-        <Swiper pagination={true}
-    modules={[Pagination, Autoplay]}
+        <Swiper 
+    pagination={{
+        type:"fraction",
+    }}
+    
+    thumbs={{ swiper: thumbsSwiper }}
+    modules={[Pagination, Autoplay,FreeMode,Navigation, Thumbs]}
     spaceBetween={1}
     slidesPerView={1}
-    loop={true}
+    class="mySwiper2"
     >
-    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/946/500/500.jpg?hmac=e790b958XsD9Y04pYBuhTjFq7FNETblcqo1KdbSz5Tk" alt="banner1" width="500px" height="5000px"></SwiperSlide>
+    <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/946/500/500.jpg?hmac=e790b958XsD9Y04pYBuhTjFq7FNETblcqo1KdbSz5Tk" alt="banner1" width="500px" height="500px"></SwiperSlide>
     <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/3/500/500.jpg?hmac=1_eo6kK7TmgHDifRp6uCfrJgr7CctEIJZSez1KqbmJg" alt="banner2" width="500px" height="500px"></SwiperSlide>
     <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/655/500/500.jpg?hmac=MOF0Weg8WfVekOa7sZzLsoRq5kAZIwwyk7OEvka90n4" alt="banner3" width="500px" height="500px"></SwiperSlide>
     <SwiperSlide class = "rounded-3xl"><img class="rounded-3xl" src="https://i.picsum.photos/id/360/500/500.jpg?hmac=3fvPpl_8_Y4RdnU4UJiD3xAYDNpQ4eZnAbtNBUw6d-w" alt="banner4" width="500px" height="500px"></SwiperSlide>
 
 </Swiper>
-     
+ 
     </div>
+  <div class="mt-3 pl-3">
+
+    <Swiper
+on:swiper={setThumbsSwiper}
+loop={false}
+spaceBetween={10}
+slidesPerView={6}
+freeMode={true}
+watchSlidesProgress={true}
+modules={[FreeMode, Navigation, Thumbs]}
+class="mySwiper"
+>
+<SwiperSlide class = "rounded-xl"><img class="rounded-xl" src="https://i.picsum.photos/id/946/500/500.jpg?hmac=e790b958XsD9Y04pYBuhTjFq7FNETblcqo1KdbSz5Tk" alt="banner1" width="50px" height="50px"></SwiperSlide>
+<SwiperSlide class = "rounded-xl"><img class="rounded-xl" src="https://i.picsum.photos/id/3/500/500.jpg?hmac=1_eo6kK7TmgHDifRp6uCfrJgr7CctEIJZSez1KqbmJg" alt="banner2" width="50px" height="50px"></SwiperSlide>
+<SwiperSlide class = "rounded-xl"><img class="rounded-xl" src="https://i.picsum.photos/id/655/500/500.jpg?hmac=MOF0Weg8WfVekOa7sZzLsoRq5kAZIwwyk7OEvka90n4" alt="banner3" width="50px" height="50px"></SwiperSlide>
+<SwiperSlide class = "rounded-xl"><img class="rounded-xl" src="https://i.picsum.photos/id/360/500/500.jpg?hmac=3fvPpl_8_Y4RdnU4UJiD3xAYDNpQ4eZnAbtNBUw6d-w" alt="banner4" width="50px" height="50px"></SwiperSlide>
+
+</Swiper>  
+  </div>
+ 
+
+
     <div class="flex mt-3 pl-4 pr-4">
        <div class="basis-1/2 text-on-background-light dark:text-on-background-dark transition-colors duration-1000 nama-produk  text-base font-bold ">
         Daster Payung 25593
@@ -126,3 +168,45 @@ import 'swiper/css';
 {/if}
     
 </div>
+<style>
+    .swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+</style>

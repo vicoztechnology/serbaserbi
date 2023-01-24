@@ -39,9 +39,9 @@
 
 <svelte:window on:keydown={handle_keydown}/>
 
-<div class="modal-background z-40 " on:click={close}></div>
+<div class="modal-background xx z-40  inset-x-0 " on:click={close}></div>
 
-<div class="modal pl-6 pr-6 pt-6 bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark rounded-t-3xl p-3" role="dialog" aria-modal="true" bind:this={modal} transition:fly="{{ y: 200, duration: 500 }}">
+<div class="modal xx pl-6 pr-6 pt-6 bg-surface-light dark:bg-surface-dark text-on-surface-light dark:text-on-surface-dark rounded-t-3xl p-3" role="dialog" aria-modal="true" bind:this={modal} transition:fly="{{ y: 200, duration: 500 }}">
 	
 	
 	<slot></slot>
@@ -57,8 +57,9 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: 100% ;
 		background: rgba(0,0,0,0.3);
+		margin:auto;
 	}
 
 	.modal {
