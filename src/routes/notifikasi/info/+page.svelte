@@ -1,0 +1,1 @@
+<div class="pt-10">Informasi</div>

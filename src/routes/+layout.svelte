@@ -79,25 +79,26 @@ function handle() {
              </span>
 
         </button>
-        <button class="mr-2" id="btn-keranjang" aria-label="tombol keranjang">
+        <a href="/keranjang" class="mr-2" id="btn-keranjang" aria-label="tombol keranjang">
             <span class="relative inline-block" >
                 <svg class="fill-on-surface dark:fill-on-surface-dark transition-colors duration-1000" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM6.15 6l2.4 5h7l2.75-5ZM7 17q-1.125 0-1.7-.988-.575-.987-.05-1.962L6.6 11.6 3 4H1.975q-.425 0-.7-.288Q1 3.425 1 3t.288-.713Q1.575 2 2 2h1.625q.275 0 .525.15t.375.425L5.2 4h14.75q.675 0 .925.5t-.025 1.05l-3.55 6.4q-.275.5-.725.775-.45.275-1.025.275H8.1L7 15h11.025q.425 0 .7.287.275.288.275.713t-.288.712Q18.425 17 18 17Zm1.55-6h7Z"/></svg>
               <span class="pl-1 pr-1 rounded-lg bg-error-light dark:bg-error-dark text-on-error-light dark:text-on-error-dark transition-colors duration-1000 absolute top-0 right-0 inline-flex transform translate-x-1/2 -translate-y-1/2 ">99</span>
            
             </span>
-        </button>
-        <button class="mr-2" id="btn-pengumuman" aria-label="tombol pengumuman">
+        </a>
+        <a href="notifikasi" class="mr-2" id="btn-pengumuman" aria-label="tombol pengumuman">
             <span class="relative inline-block">
                 <svg class="fill-on-surface dark:fill-on-surface-dark transition-colors duration-1000" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M5 19q-.425 0-.713-.288Q4 18.425 4 18t.287-.712Q4.575 17 5 17h1v-7q0-2.075 1.25-3.688Q8.5 4.7 10.5 4.2v-.7q0-.625.438-1.062Q11.375 2 12 2t1.062.438q.438.437.438 1.062v.7q2 .5 3.25 2.112Q18 7.925 18 10v7h1q.425 0 .712.288.288.287.288.712t-.288.712Q19.425 19 19 19Zm7-7.5ZM12 22q-.825 0-1.412-.587Q10 20.825 10 20h4q0 .825-.587 1.413Q12.825 22 12 22Zm-4-5h8v-7q0-1.65-1.175-2.825Q13.65 6 12 6q-1.65 0-2.825 1.175Q8 8.35 8 10Z"/></svg>
                 <span class="pl-1 pr-1 rounded-lg bg-error-light dark:bg-error-dark text-on-error-light dark:text-on-error-dark transition-colors duration-1000 absolute top-0 right-0 inline-flex transform translate-x-1/2 -translate-y-1/2 ">79</span>
             </span>
-        </button>
+        </a>
 
     </div>
 </nav>
-<PageTransition pathname={data.pathname}>
+<slot />
+<!--<PageTransition pathname={data.pathname}>
     <slot />
-</PageTransition>
+</PageTransition>-->
 <nav class="flex xx  {bottomstatus} py-3  text-center flex-row fixed inset-x-0 bottom-0 bg-surface-light dark:bg-surface-dark" >
     <a href="/" aria-label="halaman beranda" class="basis-1/4">
         <button id="btn-beranda" aria-label="tombol beranda" class="bg-secondary-container-light dark:bg-secondary-container-dark py-1 px-5 rounded-full ">
